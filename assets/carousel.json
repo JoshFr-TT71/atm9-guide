@@ -1,0 +1,22 @@
+[
+    {
+        "url": "img/Getting_Started/Resource_gen/SlikInfested.png",
+        "caption": "Silk infested leaves"
+    },
+    {
+        "url": "img/Getting_Started/Sieve/SieveSetup.png",
+        "caption": "5x5 Sieve setup"
+    },
+    {
+        "url": "img/Getting_Started/Resource_gen/OreQuad.png",
+        "caption": "Use a Squeezer and Hammer for maximum yield"
+    },
+    {
+        "url": "img/Getting_Started/Cobble_Gen/GettingWater.png",
+        "caption": "Oak barrels to collect rain water"
+    },
+    {
+        "url": "img/Getting_Started/Cobble_Gen/CobbleGen.png",
+        "caption": "Tier 1 cobblestone generator with compacting drawer"
+    }
+]

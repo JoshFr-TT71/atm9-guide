@@ -1,0 +1,30 @@
+[
+    {
+        "url": "img/Getting_Started/Resource_gen/Mob_bottom.png",
+        "caption": "Bottom of mob farm"
+    },
+    {
+        "url": "img/Getting_Started/Resource_gen/Mob_inside.png",
+        "caption": "Inside the mob farm without Dreadful Dirt"
+    },
+    {
+        "url": "img/Getting_Started/Resource_gen/Mob_tower.png",
+        "caption": "Mob tower with redstone blocks powering fans"
+    },
+    {
+        "url": "img/Getting_Started/Resource_gen/Mys_Supremium.png",
+        "caption": "Supremium setup - 5x5 infernium farm, a crafter and LaserIO for transport"
+    },
+    {
+        "url": "img/Getting_Started/Resource_gen/Obsidian_gen.png",
+        "caption": "Obsidian generation - lava creation, water source and drawer for storage"
+    },
+    {
+        "url": "img/Getting_Started/Resource_gen/OreQuad.png",
+        "caption": "Use a Squeezer and Hammer for maximum yield"
+    },
+    {
+        "url": "img/Getting_Started/Resource_gen/SlikInfested.png",
+        "caption": "Silk infested leaves"
+    }
+]

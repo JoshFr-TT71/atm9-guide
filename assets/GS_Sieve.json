@@ -1,0 +1,26 @@
+[
+    {
+        "url": "img/Getting_Started/Sieve/Drawers_from_sieving.png",
+        "caption": "Drawers with priority resouces from sieving"
+    },
+    {
+        "url": "img/Getting_Started/Sieve/Early_sieve.png",
+        "caption": "Early sieve steup with cobblestone generator and power for automation"
+    },
+    {
+        "url": "img/Getting_Started/Sieve/Extractor_Sieve.png",
+        "caption": "Using Xycraft's extractors you can sieve Blackstone, Deepslate and Endstone"
+    },
+    {
+        "url": "img/Getting_Started/Sieve/Sieve_sort.png",
+        "caption": "Automating the resources generated using crafters, mechanical squeezer and furnace"
+    },
+    {
+        "url": "img/Getting_Started/Sieve/SieveSetup.png",
+        "caption": "5x5 String sieve setup"
+    },
+    {
+        "url": "img/Getting_Started/Sieve/Sieving_full.png",
+        "caption": "Full setup of majority of the sievable blocks"
+    }
+]
