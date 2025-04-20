@@ -1,0 +1,811 @@
+[
+    {
+        "name": "Crook",
+        "image": "img/recipes/crook.png",
+        "description": "Used for harvesting leaves and gaining Silkworms.",
+        "ingredients": [
+            "4x Sticks"
+        ],
+        "anchor": "crook",
+        "category": "crafting"
+    },
+    {
+        "name": "String Mesh",
+        "image": "img/recipes/mesh.png",
+        "description": "Required for early-game sieving.",
+        "ingredients": [
+            "9x String"
+        ],
+        "anchor": "sieving",
+        "category": "crafting"
+    },
+    {
+        "name": "Dank",
+        "image": "img/recipes/dank.png",
+        "description": "Ideal for storing pebbles and other resources.",
+        "ingredients": [
+            "8x Coal",
+            "1x Chest"
+        ],
+        "anchor": "pebbles",
+        "category": "crafting"
+    },
+    {
+        "name": "Cobblestone Generator Tier 1",
+        "image": "img/recipes/cobblestone_gen.png",
+        "description": "Generates cobblestone automatically using lava and water.",
+        "ingredients": [
+            "1x Glass",
+            "1x Water Bucket",
+            "1x Lava Bucket",
+            "6x Wooden Logs"
+        ],
+        "anchor": "cobble-gen",
+        "category": "crafting"
+    },
+    {
+        "name": "Porcelain Clay",
+        "image": "img/recipes/porcelain_clay.png",
+        "description": "Used to craft the Crucible for lava generation.",
+        "ingredients": [
+            "1x Clay",
+            "1x Bone Meal"
+        ],
+        "anchor": "crucible",
+        "category": "crafting"
+    },
+    {
+        "name": "Unfired Crucible",
+        "image": "img/recipes/uncooked_crucible.png",
+        "description": "Heats cobblestone into lava when placed above a heat source.",
+        "ingredients": [
+            "7x Porcelain Clay"
+        ],
+        "anchor": "crucible",
+        "category": "crafting"
+    },
+    {
+        "name": "Crucible",
+        "image": "img/recipes/cooked_crucible.png",
+        "description": "Place cobblestone in a Crucible to produce lava after some time.",
+        "ingredients": [
+            "1x Fuel Source",
+            "1x Unfired Crucible"
+        ],
+        "anchor": "crucible",
+        "category": "smelting"
+    },
+    {
+        "name": "Sieve",
+        "image": "img/recipes/Sieve.png",
+        "description": "Used for sieving certain blocks to get resources.",
+        "ingredients": [
+            "2x Sticks",
+            "1x Wooden Slab",
+            "4x Wooden Plank"
+        ],
+        "anchor": "sieving",
+        "category": "crafting"
+    },
+    {
+        "name": "Simple Compacting Drawer",
+        "image": "img/recipes/Simple_comp_drawer.png",
+        "description": "Useful for storing cobblestone with automation support.",
+        "ingredients": [
+            "6x Stone",
+            "1x Iron Ingot",
+            "1x Piston",
+            "1x Drawer"
+        ],
+        "anchor": "compacting-drawer",
+        "category": "crafting"
+    },
+    {
+        "name": "Stone Hammer",
+        "image": "img/recipes/cobble_hammer.png",
+        "description": "Used to break cobblestone into gravel, gravel into sand, and sand into dust.",
+        "ingredients": [
+            "2x Sticks",
+            "2x Cobblestone"
+        ],
+        "anchor": "sieving",
+        "category": "crafting"
+    },
+    {
+        "name": "Flint Mesh",
+        "image": "img/recipes/flint_mesh.png",
+        "description": "An improved mesh that increases your chances of gaining valuable ores.",
+        "ingredients": [
+            "1x String Mesh",
+            "4x Flint"
+        ],
+        "anchor": "flint-mesh",
+        "category": "crafting"
+    },
+    {
+        "name": "Iron Furnace",
+        "image": "img/recipes/iron_furnace.png",
+        "description": "A faster and more efficient furnace for smelting items.",
+        "ingredients": [
+            "8x Iron Ingots",
+            "1x Furnace"
+        ],
+        "anchor": "smelting",
+        "category": "crafting"
+    },
+    {
+        "name": "Copper Hammer",
+        "image": "img/recipes/copper_hammer_ore.png",
+        "description": "Doubles ore output when combined with raw ores.",
+        "ingredients": [
+            "2x Copper Blocks",
+            "3x Sticks"
+        ],
+        "anchor": "smelting",
+        "category": "crafting"
+    },
+    {
+        "name": "Squeezer",
+        "image": "img/recipes/squeezer.png",
+        "description": "Quadruples ore output when combined with armor stands and a pressure plate.",
+        "ingredients": [
+            "2x Planks",
+            "4x Sticks",
+            "1x Iron Block",
+            "1x Iron Ingot"
+        ],
+        "anchor": "squeezer",
+        "category": "crafting"
+    },
+    {
+        "name": "Armour Stand",
+        "image": "img/recipes/armour_stand.png",
+        "description": "Used to automate the squeezer for faster ore production.",
+        "ingredients": [
+            "1x Smooth Stone Slab",
+            "6x Sticks"
+        ],
+        "anchor": "squeezer",
+        "category": "crafting"
+    },
+    {
+        "name": "Pressure Plate",
+        "image": "img/recipes/pressure_plate.png",
+        "description": "Resets the squeezer automatically for efficient ore processing.",
+        "ingredients": [
+            "2x Stone"
+        ],
+        "anchor": "squeezer",
+        "category": "crafting"
+    },
+    {
+        "name": "Absorption Hopper",
+        "image": "img/recipes/absorption_hopper.png",
+        "description": "Placeholder description for Absorption Hopper.",
+        "ingredients": [
+            "TBD"
+        ],
+        "anchor": "absorption-hopper",
+        "category": "crafting"
+    },
+    {
+        "name": "Basic Item Collector",
+        "image": "img/recipes/basic_item_collector.png",
+        "description": "Placeholder description for Basic Item Collector.",
+        "ingredients": [
+            "TBD"
+        ],
+        "anchor": "basic-item-collector",
+        "category": "crafting"
+    },
+    {
+        "name": "Basic Universal Cables",
+        "image": "img/recipes/basic_universal_cables.png",
+        "description": "Placeholder description for Basic Universal Cables.",
+        "ingredients": [
+            "TBD"
+        ],
+        "anchor": "basic-universal-cables",
+        "category": "crafting"
+    },
+    {
+        "name": "Blackstone",
+        "image": "img/recipes/blackstone.png",
+        "description": "Placeholder description for Blackstone.",
+        "ingredients": [
+            "TBD"
+        ],
+        "anchor": "blackstone",
+        "category": "process"
+    },
+    {
+        "name": "Campfire",
+        "image": "img/recipes/campfire.png",
+        "description": "Placeholder description for Campfire.",
+        "ingredients": [
+            "TBD"
+        ],
+        "anchor": "campfire",
+        "category": "crafting"
+    },
+    {
+        "name": "Coal Generator",
+        "image": "img/recipes/coal_generator.png",
+        "description": "Placeholder description for Coal Generator.",
+        "ingredients": [
+            "TBD"
+        ],
+        "anchor": "coal-generator",
+        "category": "crafting"
+    },
+    {
+        "name": "Cobblestone",
+        "image": "img/recipes/cobblestone.png",
+        "description": "Placeholder description for Cobblestone.",
+        "ingredients": [
+            "TBD"
+        ],
+        "anchor": "cobble-gen",
+        "category": "process"
+    },
+    {
+        "name": "Cobblestone Generator (Tier 1)",
+        "image": "img/recipes/cobblestone_generator_tier_1.png",
+        "description": "Placeholder description for Cobblestone Generator (Tier 1).",
+        "ingredients": [
+            "TBD"
+        ],
+        "anchor": "cobblestone-generator-tier-1",
+        "category": "crafting"
+    },
+    {
+        "name": "Crafter Tier 3",
+        "image": "img/recipes/crafter_tier_3.png",
+        "description": "Placeholder description for Crafter Tier 3.",
+        "ingredients": [
+            "TBD"
+        ],
+        "anchor": "crafter-tier-3",
+        "category": "crafting"
+    },
+    {
+        "name": "Crafting Table",
+        "image": "img/recipes/crafting_table.png",
+        "description": "Placeholder description for crafting Table.",
+        "ingredients": [
+            "TBD"
+        ],
+        "anchor": "crafting-table",
+        "category": "crafting"
+    },
+    {
+        "name": "Deepslate",
+        "image": "img/recipes/deepslate.png",
+        "description": "Placeholder description for Deepslate.",
+        "ingredients": [
+            "TBD"
+        ],
+        "anchor": "deepslate",
+        "category": "process"
+    },
+    {
+        "name": "Depot",
+        "image": "img/recipes/depot.png",
+        "description": "Placeholder description for Depot.",
+        "ingredients": [
+            "TBD"
+        ],
+        "anchor": "depot",
+        "category": "crafting"
+    },
+    {
+        "name": "Diamond Furnace",
+        "image": "img/recipes/diamond_furnace.png",
+        "description": "Placeholder description for Diamond Furnace.",
+        "ingredients": [
+            "TBD"
+        ],
+        "anchor": "diamond-furnace",
+        "category": "crafting"
+    },
+    {
+        "name": "Dust",
+        "image": "img/recipes/dust.png",
+        "description": "Placeholder description for Dust.",
+        "ingredients": [
+            "TBD"
+        ],
+        "anchor": "dust",
+        "category": "crafting"
+    },
+    {
+        "name": "Encased Fan",
+        "image": "img/recipes/encased_fan.png",
+        "description": "Placeholder description for Encased Fan.",
+        "ingredients": [
+            "TBD"
+        ],
+        "anchor": "encased-fan",
+        "category": "crafting"
+    },
+    {
+        "name": "End Stone",
+        "image": "img/recipes/end_stone.png",
+        "description": "Placeholder description for End Stone.",
+        "ingredients": [
+            "TBD"
+        ],
+        "anchor": "end-stone",
+        "category": "process"
+    },
+    {
+        "name": "Ender Cell",
+        "image": "img/recipes/ender_cell.png",
+        "description": "Placeholder description for Ender Cell.",
+        "ingredients": [
+            "TBD"
+        ],
+        "anchor": "ender\n--------------------cell",
+        "category": "crafting"
+    },
+    {
+        "name": "Energy Pipes",
+        "image": "img/recipes/energy_pipes.png",
+        "description": "Placeholder description for Energy Pipes.",
+        "ingredients": [
+            "TBD"
+        ],
+        "anchor": "energy\n--------------------pipes",
+        "category": "crafting"
+    },
+    {
+        "name": "Energy Pipes",
+        "image": "img/recipes/energy_pipes.png",
+        "description": "Placeholder description for Energy Pipes.",
+        "ingredients": [
+            "TBD"
+        ],
+        "anchor": "energy-pipes",
+        "category": "crafting"
+    },
+    {
+        "name": "Factory Upgrade",
+        "image": "img/recipes/factory_upgrade.png",
+        "description": "Placeholder description for Factory Upgrade.",
+        "ingredients": [
+            "TBD"
+        ],
+        "anchor": "factory-upgrade",
+        "category": "crafting"
+    },
+    {
+        "name": "Fan",
+        "image": "img/recipes/fan.png",
+        "description": "Placeholder description for Fan.",
+        "ingredients": [
+            "TBD"
+        ],
+        "anchor": "fan",
+        "category": "crafting"
+    },
+    {
+        "name": "Flux Hammer",
+        "image": "img/recipes/flux_hammer.png",
+        "description": "Placeholder description for Flux Hammer.",
+        "ingredients": [
+            "TBD"
+        ],
+        "anchor": "flux-hammer",
+        "category": "crafting"
+    },
+    {
+        "name": "Flux Sieve",
+        "image": "img/recipes/flux_sieve.png",
+        "description": "Placeholder description for Flux Sieve.",
+        "ingredients": [
+            "TBD"
+        ],
+        "anchor": "flux-sieve",
+        "category": "crafting"
+    },
+    {
+        "name": "Furnace",
+        "image": "img/recipes/furnace.png",
+        "description": "Placeholder description for Furnace.",
+        "ingredients": [
+            "TBD"
+        ],
+        "anchor": "furnace",
+        "category": "crafting"
+    },
+    {
+        "name": "Gold Barrel",
+        "image": "img/recipes/gold_barrel.png",
+        "description": "Placeholder description for Gold Barrel.",
+        "ingredients": [
+            "TBD"
+        ],
+        "anchor": "gold-barrel",
+        "category": "crafting"
+    },
+    {
+        "name": "Gold Chest",
+        "image": "img/recipes/gold_chest.png",
+        "description": "Placeholder description for Gold Chest.",
+        "ingredients": [
+            "TBD"
+        ],
+        "anchor": "gold-chest",
+        "category": "crafting"
+    },
+    {
+        "name": "Gold Furnace",
+        "image": "img/recipes/gold_furnace.png",
+        "description": "Placeholder description for Gold Furnace.",
+        "ingredients": [
+            "TBD"
+        ],
+        "anchor": "gold-furnace",
+        "category": "crafting"
+    },
+    {
+        "name": "Golden Meshes",
+        "image": "img/recipes/golden_meshes.png",
+        "description": "Placeholder description for Golden Meshes.",
+        "ingredients": [
+            "TBD"
+        ],
+        "anchor": "golden-meshes",
+        "category": "crafting"
+    },
+    {
+        "name": "Gravel",
+        "image": "img/recipes/gravel.png",
+        "description": "Placeholder description for Gravel.",
+        "ingredients": [
+            "TBD"
+        ],
+        "anchor": "gravel",
+        "category": "process"
+    },
+    {
+        "name": "Hammer",
+        "image": "img/recipes/hammer.png",
+        "description": "Placeholder description for Hammer.",
+        "ingredients": [
+            "TBD"
+        ],
+        "anchor": "hammer",
+        "category": "crafting"
+    },
+    {
+        "name": "Heat Generator",
+        "image": "img/recipes/heat_generator.png",
+        "description": "Placeholder description for Heat Generator.",
+        "ingredients": [
+            "TBD"
+        ],
+        "anchor": "heat-generator",
+        "category": "crafting"
+    },
+    {
+        "name": "Inferium Seeds",
+        "image": "img/recipes/inferium_seeds.png",
+        "description": "Placeholder description for Inferium Seeds.",
+        "ingredients": [
+            "TBD"
+        ],
+        "anchor": "inferium-seeds",
+        "category": "crafting"
+    },
+    {
+        "name": "Iron Furnaces",
+        "image": "img/recipes/iron_furnaces.png",
+        "description": "Placeholder description for Iron Furnaces.",
+        "ingredients": [
+            "TBD"
+        ],
+        "anchor": "iron-furnaces",
+        "category": "crafting"
+    },
+    {
+        "name": "Iron Meshes",
+        "image": "img/recipes/iron_meshes.png",
+        "description": "Placeholder description for Iron Meshes.",
+        "ingredients": [
+            "TBD"
+        ],
+        "anchor": "iron-meshes",
+        "category": "crafting"
+    },
+    {
+        "name": "Item Pipes",
+        "image": "img/recipes/item_pipes.png",
+        "description": "Placeholder description for Item Pipes.",
+        "ingredients": [
+            "TBD"
+        ],
+        "anchor": "item-pipes",
+        "category": "crafting"
+    },
+    {
+        "name": "Mechanical Belt",
+        "image": "img/recipes/mechanical_belt.png",
+        "description": "Placeholder description for Mechanical Belt.",
+        "ingredients": [
+            "TBD"
+        ],
+        "anchor": "mechanical-belt",
+        "category": "crafting"
+    },
+    {
+        "name": "Mechanical Squeezer",
+        "image": "img/recipes/mechanical_squeezer.png",
+        "description": "Placeholder description for Mechanical Squeezer.",
+        "ingredients": [
+            "TBD"
+        ],
+        "anchor": "mechanical-squeezer",
+        "category": "crafting"
+    },
+    {
+        "name": "Mekanism",
+        "image": "img/recipes/mekanism.png",
+        "description": "Placeholder description for Mekanism.",
+        "ingredients": [
+            "TBD"
+        ],
+        "anchor": "mekanism",
+        "category": "crafting"
+    },
+    {
+        "name": "Mob Masher",
+        "image": "img/recipes/mob_masher.png",
+        "description": "Placeholder description for Mob Masher.",
+        "ingredients": [
+            "TBD"
+        ],
+        "anchor": "mob-masher",
+        "category": "crafting"
+    },
+    {
+        "name": "Moss",
+        "image": "img/recipes/moss.png",
+        "description": "Placeholder description for Moss.",
+        "ingredients": [
+            "TBD"
+        ],
+        "anchor": "moss",
+        "category": "process"
+    },
+    {
+        "name": "Mud",
+        "image": "img/recipes/mud.png",
+        "description": "Placeholder description for Mud.",
+        "ingredients": [
+            "TBD"
+        ],
+        "anchor": "mud",
+        "category": "process"
+    },
+    {
+        "name": "Mycelium",
+        "image": "img/recipes/mycelium.png",
+        "description": "Placeholder description for Mycelium.",
+        "ingredients": [
+            "TBD"
+        ],
+        "anchor": "mycelium",
+        "category": "process"
+    },
+    {
+        "name": "Mycelium Spores",
+        "image": "img/recipes/mycelium_spores.png",
+        "description": "Placeholder description for Mycelium Spores.",
+        "ingredients": [
+            "TBD"
+        ],
+        "anchor": "mycelium-spores",
+        "category": "process"
+    },
+    {
+        "name": "Oak Barrel",
+        "image": "img/recipes/oak_barrel.png",
+        "description": "Placeholder description for Oak Barrel.",
+        "ingredients": [
+            "TBD"
+        ],
+        "anchor": "oak-barrel",
+        "category": "crafting"
+    },
+    {
+        "name": "Pebbles",
+        "image": "img/recipes/pebbles.png",
+        "description": "Placeholder description for Pebbles.",
+        "ingredients": [
+            "TBD"
+        ],
+        "anchor": "pebbles",
+        "category": "process"
+    },
+    {
+        "name": "Porcelain Crucible",
+        "image": "img/recipes/porcelain_crucible.png",
+        "description": "Placeholder description for Porcelain Crucible.",
+        "ingredients": [
+            "TBD"
+        ],
+        "anchor": "porcelain-crucible",
+        "category": "smelting"
+    },
+    {
+        "name": "Sand",
+        "image": "img/recipes/sand.png",
+        "description": "Placeholder description for Sand.",
+        "ingredients": [
+            "TBD"
+        ],
+        "anchor": "sand",
+        "category": "process"
+    },
+    {
+        "name": "Sieves",
+        "image": "img/recipes/sieves.png",
+        "description": "Placeholder description for Sieves.",
+        "ingredients": [
+            "TBD"
+        ],
+        "anchor": "sieves",
+        "category": "crafting"
+    },
+    {
+        "name": "Silkworms",
+        "image": "img/recipes/silkworms.png",
+        "description": "Placeholder description for Silkworms.",
+        "ingredients": [
+            "TBD"
+        ],
+        "anchor": "silkworms",
+        "category": "process"
+    },
+    {
+        "name": "Soul Fire",
+        "image": "img/recipes/soul_fire.png",
+        "description": "Placeholder description for Soul Fire.",
+        "ingredients": [
+            "TBD"
+        ],
+        "anchor": "soul-fire",
+        "category": "process"
+    },
+    {
+        "name": "Soul Sand",
+        "image": "img/recipes/soul_sand.png",
+        "description": "Placeholder description for Soul Sand.",
+        "ingredients": [
+            "TBD"
+        ],
+        "anchor": "soul-sand",
+        "category": "process"
+    },
+    {
+        "name": "Storage Upgrades",
+        "image": "img/recipes/storage_upgrades.png",
+        "description": "Placeholder description for Storage Upgrades.",
+        "ingredients": [
+            "TBD"
+        ],
+        "anchor": "storage-upgrades",
+        "category": "crafting"
+    },
+    {
+        "name": "Drawer",
+        "image": "img/recipes/drawer.png",
+        "description": "Placeholder description for Storage Drawer.",
+        "ingredients": [
+            "TBD"
+        ],
+        "anchor": "drawer",
+        "category": "crafting"
+    },
+    {
+        "name": "String",
+        "image": "img/recipes/string.png",
+        "description": "Placeholder description for String.",
+        "ingredients": [
+            "TBD"
+        ],
+        "anchor": "string",
+        "category": "process"
+    },
+    {
+        "name": "String Meshes",
+        "image": "img/recipes/string_meshes.png",
+        "description": "Placeholder description for String Meshes.",
+        "ingredients": [
+            "TBD"
+        ],
+        "anchor": "string-meshes",
+        "category": "crafting"
+    },
+    {
+        "name": "Supremium Essence",
+        "image": "img/recipes/supremium_essence.png",
+        "description": "Placeholder description for Supremium Essence.",
+        "ingredients": [
+            "TBD"
+        ],
+        "anchor": "supremium-essence",
+        "category": "crafting"
+    },
+    {
+        "name": "Thermo Generators",
+        "image": "img/recipes/thermo_generators.png",
+        "description": "Placeholder description for Thermo Generators.",
+        "ingredients": [
+            "TBD"
+        ],
+        "anchor": "thermo-generators",
+        "category": "crafting"
+    },
+    {
+        "name": "Tier 3 Crafter",
+        "image": "img/recipes/tier_3_crafter.png",
+        "description": "Placeholder description for Tier 3 Crafter.",
+        "ingredients": [
+            "TBD"
+        ],
+        "anchor": "tier-3-crafter",
+        "category": "crafting"
+    },
+    {
+        "name": "Universal Cables",
+        "image": "img/recipes/universal_cables.png",
+        "description": "Placeholder description for Universal Cables.",
+        "ingredients": [
+            "TBD"
+        ],
+        "anchor": "universal-cables",
+        "category": "crafting"
+    },
+    {
+        "name": "Water Wheel",
+        "image": "img/recipes/water_wheel.png",
+        "description": "Placeholder description for Water Wheel.",
+        "ingredients": [
+            "TBD"
+        ],
+        "anchor": "water-wheel",
+        "category": "crafting"
+    },
+    {
+        "name": "Wind Generator",
+        "image": "img/recipes/wind_generator.png",
+        "description": "Placeholder description for Wind Generator.",
+        "ingredients": [
+            "TBD"
+        ],
+        "anchor": "wind-generator",
+        "category": "crafting"
+    },
+    {
+        "name": "Witch Water",
+        "image": "img/recipes/witchwater.png",
+        "description": "Placeholder description for Witch Water.",
+        "ingredients": [
+            "TBD"
+        ],
+        "anchor": "witch-water",
+        "category": "process"
+    },
+    {
+        "name": "Extractor",
+        "image": "img/recipes/xycraft's_extractor.png",
+        "description": "Placeholder description for Xycraft's Extractor.",
+        "ingredients": [
+            "TBD"
+        ],
+        "anchor": "xycraft's-extractor",
+        "category": "crafting"
+    }
+]

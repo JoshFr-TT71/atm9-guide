@@ -1,0 +1,225 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    overflow-x: hidden;
+    background-color: #f4f4f4;
+    color: #333;
+    font-size: 1em;
+    font-family: "Roboto", sans-serif;
+}
+
+p,
+h1,
+h2,
+h3 {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.html-nav {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+footer{
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+}
+
+footer h2 {
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+h1,
+h2 {
+    color: #0056b3;
+}
+
+ul {
+    list-style: square;
+}
+
+.page-nav {
+    background-color: #f4f4f4;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+.com-links {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.com-links .icon img {
+    width: 150px;
+    height: 100px;
+    object-fit: contain;
+}
+
+#backToTop {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 99;
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    padding: 12px 18px;
+    font-size: 18px;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: opacity 0.3s ease;
+    opacity: 0;
+    visibility: hidden;
+}
+
+#backToTop.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+.accordion-header {
+    background-color: #0056b3;
+    color: #fff;
+    padding: 10px 1px;
+    cursor: pointer;
+    border: none;
+    text-align: left;
+    width: 100%;
+    outline: none;
+    transition: background-color 0.3s ease;
+    position: relative;
+    padding-left: 20px;
+}
+
+.accordion-header:hover {
+    background-color: #004494;
+}
+
+.accordion-content {
+    background-color: #f4f4f4;
+    padding: 10px 20px;
+    display: none;
+    font-size: 1.1em;
+    line-height: 1.8;
+    margin-left: 20px;
+}
+
+.accordion-content ul li {
+    margin-bottom: 5px;
+}
+
+.accordion-content.show {
+    display: block;
+}
+
+.accordion-header::after {
+    content: '\25BC';
+    /* Down arrow */
+    position: absolute;
+    right: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: transform 0.3s ease;
+    font-size: 0.8em;
+}
+
+.accordion-header.active::after {
+    transform: translateY(-50%) rotate(180deg);
+    /* Rotates the arrow when open */
+}
+
+.accordion-img {
+    display: inline-block;
+    width: 48%;
+    border-radius: 8px;
+    margin: 1%;
+    vertical-align: top;
+    object-fit: cover;
+}
+
+.accordion-img-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+    .html-nav {
+        flex-direction: column;
+        padding: 10px 0;
+    }
+
+    nav a {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .accordion-img {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .accordion-img-row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .com-links {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .com-links .icon img {
+        width: 100px;
+        height: auto;
+    }
+
+    .page-nav {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .page-nav a img {
+        width: 90%;
+        height: auto;
+    }
+
+    h1, h2, h3, p {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    #backToTop {
+        bottom: 15px;
+        right: 15px;
+        font-size: 14px;
+        padding: 10px 14px;
+    }
+}
