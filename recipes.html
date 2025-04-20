@@ -34,10 +34,23 @@
     </nav>
 
     <section class="recipes">
+        <div class="jei-tip">
+            <h2>How to Use JEI (Just Enough Items)</h2>
+            <p>
+                This site showcases the most important recipes in <strong>ATM9 To The Sky</strong>. For everything else,
+                the <strong>JEI mod</strong> (Just Enough Items) is the best in-game tool for recipe discovery.
+            </p>
+            <ul>
+                <li><strong>Press R</strong> while hovering an item to see how to craft it.</li>
+                <li><strong>Press U</strong> to see how it's used in other recipes.</li>
+                <li>Search for items in the bottom-right inventory panel.</li>
+                <li>Click arrows or mod icons to filter by mod.</li>
+            </ul>
+        </div>
+
         <h1>Recipe Search</h1>
         <input type="text" id="searchBar" placeholder="Search for a recipe..." oninput="searchRecipes()">
-    
-        <!-- Results will be grouped by category and inserted here -->
+
         <div id="recipeResults" class="recipe-group-wrapper"></div>
     </section>
 
