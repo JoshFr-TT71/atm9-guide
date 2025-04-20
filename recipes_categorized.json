@@ -134,7 +134,7 @@
     {
         "name": "Squeezer",
         "image": "img/recipes/squeezer.png",
-        "description": "Quadruples ore output when combined with armor stands and a pressure plate.",
+        "description": "Quadruples ore output when combined with armour stands and a pressure plate.",
         "ingredients": [
             "2x Planks",
             "4x Sticks",
@@ -168,7 +168,7 @@
         "description": "Absorbs items and experience in a 7x7 area with configurable outputs.",
         "ingredients": [
             "1x Eye of Ender",
-            "3x Obsdian",
+            "3x Obsidian",
             "1x Hopper"
         ],
         "anchor": "absorption-hopper"
@@ -251,7 +251,7 @@
     {
         "name": "Mechanical Squeezer",
         "image": "img/recipes/Mech_squeezer.png",
-        "description": "Used to automate squeezing ores blocks to get more ores.",
+        "description": "Used to automate squeezing ore blocks to get more ores.",
         "ingredients": [
             "1x Diamond",
             "1x Hammer",
