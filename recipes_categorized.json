@@ -70,7 +70,7 @@
     },
     {
         "name": "Sieve",
-        "image": "img/recipes/Sieve.png",
+        "image": "img/recipes/sieve.png",
         "description": "Used for sieving certain blocks to get resources.",
         "ingredients": [
             "2x Sticks",
@@ -113,7 +113,7 @@
     },
     {
         "name": "Iron Furnace",
-        "image": "img/recipes/iron_furnace.png",
+        "image": "img/recipes/Iron_furnace.png",
         "description": "A faster and more efficient furnace for smelting items.",
         "ingredients": [
             "8x Iron Ingots",
@@ -155,7 +155,7 @@
     },
     {
         "name": "Pressure Plate",
-        "image": "img/recipes/pressure_plate.png",
+        "image": "img/recipes/Pressure_plate.png",
         "description": "Resets the squeezer automatically for efficient ore processing.",
         "ingredients": [
             "2x Wooden Planks"
@@ -229,7 +229,7 @@
     },
     {
         "name": "Flux Sieve",
-        "image": "img/recipes/Flux_sieve.png",
+        "image": "img/recipes/Flux_Sieve.png",
         "description": "Used to automate sieving.",
         "ingredients": [
             "5x Iron Bars",
