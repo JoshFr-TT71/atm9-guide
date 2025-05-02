@@ -26,35 +26,47 @@ document.querySelectorAll('.carousel').forEach(function (carousel) {
 
     // Function to handle carousel navigation
     function setupCarousel(json, images, caption, back, next) {
-        let currentIndex = 0; // Initialize the starting index
+        let currentIndex = 0;
         const totalImages = json.length;
+    
+        // Create pips container
+        const pipContainer = document.createElement('div');
+        pipContainer.classList.add('carousel-pips');
+        carousel.parentNode.insertBefore(pipContainer, carousel.nextSibling);
 
-        // Update the carousel (set the image and caption)
+    
+        const pips = json.map((_, i) => {
+            const pip = document.createElement('span');
+            pip.classList.add('carousel-pip');
+            if (i === 0) pip.classList.add('active');
+            pip.addEventListener('click', () => {
+                currentIndex = i;
+                updateCarousel();
+            });
+            pipContainer.appendChild(pip);
+            return pip;
+        });
+    
         function updateCarousel() {
-            const offset = -currentIndex * 100;
-            images.style.transform = `translateX(${offset}%)`; // Move the images
-            caption.innerText = json[currentIndex].caption; // Set the caption
+            images.style.transform = `translateX(${-currentIndex * 100}%)`;
+            caption.innerText = json[currentIndex].caption;
+            pips.forEach((pip, i) => {
+                pip.classList.toggle('active', i === currentIndex);
+            });
         }
-
-        // Set the first image and caption initially
-        updateCarousel();
-
-        // Next button functionality
+    
         next.addEventListener("click", (e) => {
-            e.preventDefault(); // Prevent the default behavior of the anchor tag
-            if (currentIndex < totalImages - 1) {
-                currentIndex++;
-                updateCarousel(); // Update the carousel with the next image
-            }
+            e.preventDefault();
+            currentIndex = (currentIndex + 1) % totalImages;
+            updateCarousel();
         });
-
-        // Back button functionality
+    
         back.addEventListener("click", (e) => {
-            e.preventDefault(); // Prevent the default behavior of the anchor tag
-            if (currentIndex > 0) {
-                currentIndex--;
-                updateCarousel(); // Update the carousel with the previous image
-            }
+            e.preventDefault();
+            currentIndex = (currentIndex - 1 + totalImages) % totalImages;
+            updateCarousel();
         });
+    
+        updateCarousel(); // Initial render
     }
 });
