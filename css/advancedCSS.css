@@ -4,9 +4,10 @@
     max-width: 800px;
     height: 450px;
     overflow: hidden;
-    margin: 50px auto;
+    margin: 25px auto;
     box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
     background-color: #000;
+    margin-bottom: 5px;
 }
 
 .carousel-images {
@@ -60,6 +61,25 @@
     height: 50px;
     line-height: 50px;
     margin: 0px;
+}
+
+.carousel-pips {
+    text-align: center;
+    padding: 10px 0;
+}
+
+.carousel-pip {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin: 0 6px;
+    background-color: #aaa;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.carousel-pip.active {
+    background-color: #0056b3;
 }
 
 .quick-links {
@@ -131,4 +151,3 @@
       padding: 0 10px;
     }
   }
-  
