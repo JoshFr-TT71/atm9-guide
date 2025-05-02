@@ -1,117 +1,136 @@
 .carousel {
-    position: relative;
-    width: 100%;
-    max-width: 800px;
-    height: 450px;
-    overflow: hidden;
-    margin: 50px auto;
-    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
-    background-color: #000;
+  position: relative;
+  width: 100%;
+  max-width: 800px;
+  height: 450px;
+  overflow: hidden;
+  margin: 25px auto;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
+  background-color: #000;
+  margin-bottom: 5px;
 }
 
 .carousel-images {
-    display: flex;
-    flex-direction: row;
-    transition: left .5s ease-in-out;
+  display: flex;
+  flex-direction: row;
+  transition: left .5s ease-in-out;
 }
 
 .carousel-images img {
-    flex-shrink: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
+  flex-shrink: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 
 .carousel nav {
-    background-color: rgba(0, 0, 0, 0);
-    display: flex;
-    position: absolute;
-    z-index: 2;
-    justify-content: space-between;
-    width: 100%;
-    height: 450px;
-    line-height: 250px;
+  background-color: rgba(0, 0, 0, 0);
+  display: flex;
+  position: absolute;
+  z-index: 2;
+  justify-content: space-between;
+  width: 100%;
+  height: 450px;
+  line-height: 250px;
 }
 
 .carousel nav a {
-    text-decoration: none;
-    margin-top: 90px;
-    color: #fff;
-    font-weight: bold;
-    font-size: 30pt;
-    padding: 0px 25px;
-    transition: all .35s ease;
-    opacity: 0.5;
+  text-decoration: none;
+  margin-top: 90px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 30pt;
+  padding: 0px 25px;
+  transition: all .35s ease;
+  opacity: 0.5;
 }
 
 .carousel nav:hover a {
-    transition: all 0.25s ease;
-    opacity: 1;
+  transition: all 0.25s ease;
+  opacity: 1;
 }
 
 .carousel-caption {
-    position: absolute;
-    z-index: 3;
-    bottom: 0;
-    text-align: center;
-    width: 100%;
-    color: white;
-    background-color: rgba(0, 0, 0, 0.25);
-    height: 50px;
-    line-height: 50px;
-    margin: 0px;
+  position: absolute;
+  z-index: 3;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.25);
+  height: 50px;
+  line-height: 50px;
+  margin: 0px;
+}
+
+.carousel-pips {
+  text-align: center;
+  padding: 10px 0;
+}
+
+.carousel-pip {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  margin: 0 6px;
+  background-color: #aaa;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.carousel-pip.active {
+  background-color: #0056b3;
 }
 
 .quick-links {
-    background-color: #0056b3;
-    color: #fff;
-    padding: 10px 0;
-    text-align: center;
-    margin-bottom: 20px;
+  background-color: #0056b3;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+  margin-bottom: 20px;
 }
 
 .quick-links a {
-    margin: 0 15px;
-    color: #fff;
-    text-decoration: none;
-    font-weight: bold;
-    padding: 5px 10px;
+  margin: 0 15px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 5px 10px;
 }
 
 .quick-links a:hover {
-    background-color: #004494;
-    border-radius: 5px;
+  background-color: #004494;
+  border-radius: 5px;
 }
 
 @media (max-width: 768px) {
-    .carousel {
-      height: auto;
-      max-width: 100%;
-    }
-  
-    .carousel-images img {
-      width: 100%;
-      height: auto;
-      object-fit: contain;
-    }
-  
-    .carousel-caption {
-      font-size: 0.9em;
-      padding: 10px;
-      line-height: 1.4;
-      height: auto;
-      min-height: 40px;
-    }
-  
-    .carousel nav {
-      height: auto;
-      align-items: center;
-      font-size: 1.5rem;
-    }
-  
-    .carousel nav a {
-      margin-top: 0;
-      padding: 0 10px;
-    }
+  .carousel {
+    height: auto;
+    max-width: 100%;
   }
-  
+
+  .carousel-images img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+  }
+
+  .carousel-caption {
+    font-size: 0.9em;
+    padding: 10px;
+    line-height: 1.4;
+    height: auto;
+    min-height: 40px;
+  }
+
+  .carousel nav {
+    height: auto;
+    align-items: center;
+    font-size: 1.5rem;
+  }
+
+  .carousel nav a {
+    margin-top: 0;
+    padding: 0 10px;
+  }
+}
