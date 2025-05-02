@@ -1,0 +1,47 @@
+[
+    {
+        "url": "img/gallery/Bigger&Drac.png",
+        "thumb": "img/gallery/thumbs/Bigger&Drac_thumb.png",
+        "description": "Bigger reactors and Draconic Evolution power setup"
+    },
+    {
+        "url": "img/gallery/Mys_Agri.png",
+        "thumb": "img/gallery/thumbs/Mys_Agri_thumb.png",
+        "description": "Mystical Agriculture setup with 5x5 plots"
+    },
+    {
+        "url": "img/gallery/Bees.png",
+        "thumb": "img/gallery/thumbs/Bees_thumb.png",
+        "description": "Bees and their polinators"
+    },
+    {
+        "url": "img/gallery/Mob_farms.png",
+        "thumb": "img/gallery/thumbs/Mob_farms_thumb.png",
+        "description": "Mid-game mob farm with fans and Dreadful Dirt"
+    },
+    {
+        "url": "img/gallery/powah_energizing_orb.png",
+        "thumb": "img/gallery/thumbs/powah_energizing_orb_thumb.png",
+        "description": "Powah energizing orb setup"
+    },
+    {
+        "url": "img/gallery/Apoth_enchant.png",
+        "thumb": "img/gallery/thumbs/Apoth_enchant_thumb.png",
+        "description": "Apotheosis enchantment table setup"
+    },
+    {
+        "url": "img/gallery/Mys_Infusion.png",
+        "thumb": "img/gallery/thumbs/Mys_Infusion_thumb.png",
+        "description": "Mystical Agriculture Awakening auto-crafting setup"
+    },
+    {
+        "url": "img/gallery/Late_game_mob_farm.png",
+        "thumb": "img/gallery/thumbs/Late_game_mob_farm_thumb.png",
+        "description": "Late-game mob farm with fans and Dreadful Dirt"
+    },
+    {
+        "url": "img/gallery/Seive_output.png",
+        "thumb": "img/gallery/thumbs/Seive_output_thumb.png",
+        "description": "Sieve output in drawers"
+    }
+]
